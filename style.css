@@ -1,0 +1,57 @@
+*
+{
+    margin: auto;
+    padding: auto;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('https://png.pngtree.com/background/20240413/original/pngtree-3d-illustration-of-digital-shopping-and-home-delivery-service-picture-image_8474212.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+}
+.black-strip {
+    background-color: black; /* Black background */
+    color: white; /* White text color */
+    padding: 20px; /* Spacing inside the strip */
+    text-align: center; /* Center align text */
+    width: 100%; /* Full width */
+    position: fixed; /* Fixed position */
+    top: 0; /* Position it at the top */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+main {
+    flex: 1;
+    margin-top: 70px; /* Space for the black strip */
+    text-align: left; /* Center align text in main content */
+    color: white; /* White text for readability */
+}
+.contact-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 8px; /* Rounded corners */
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
