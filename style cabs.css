@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .centered {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    margin: 80px;
+    height: 100vh;
+    background-image: url('https://png.pngtree.com/background/20240413/original/pngtree-3d-illustration-of-digital-shopping-and-home-delivery-service-picture-image_8474212.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: rgba(43, 42, 40, 0.959); /* Set background color */
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link,
+.navbar .dropdown-menu .dropdown-item {
+    color: white !important; /* Set text color to white */
+    transition: background-color 0.3s, color 0.3s;
+    margin: 10px;
+}
+
+/* Navbar elements hover effect */
+.navbar .navbar-nav .nav-link:hover,
+.navbar .dropdown-menu .dropdown-item:hover {
+    background-color: rgb(243, 195, 111); /* Background remains the same */
+    color: white; /* Ensure text color remains white */
+    border-radius: 10px;
+}
+
+/* Navbar toggler for mobile view */
+.navbar .navbar-toggler {
+    border-color: white; /* White border for the toggle button */
+}
+
+.navbar .navbar-toggler-icon {
+    color: white;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: rgb(243, 195, 111); /* Dropdown background same as navbar */
+}
+
+/* Contact section styling */
+.contact-section {
+    margin-top: 100px; /* Adjust margin for fixed navbar */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    color: white;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+}
+
+form input:hover, form textarea:hover {
+    background-color: #f0f0f0; /* Hover effect on inputs */
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(243, 195, 111);
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: rgb(243, 195, 111); /* Hover effect on button */
+    color: black;
+}
